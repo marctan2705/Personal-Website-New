@@ -1,0 +1,15 @@
+.titles{
+    width: 95%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.title{
+    background: linear-gradient(180deg, #F4D844 0%, rgba(192, 192, 192, 0.62) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: fadeIn 2s ease-in-out;
+    text-align: left;
+    font-size: 60px;
+}

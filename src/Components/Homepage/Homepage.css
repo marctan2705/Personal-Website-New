@@ -1,0 +1,65 @@
+.Homepage{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 120px;
+    position: sticky;
+    top: 0;
+}
+
+.words{
+    font-size: 72px;
+    background: -webkit-linear-gradient(#eee 0%, rgb(120, 120, 120) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: fadeIn 2s ease-in-out;
+}
+
+.words2{
+    font-size: 72px;
+    background: -webkit-linear-gradient(#eee, rgb(120, 120, 120));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation-delay: 0s;
+    animation: fadeIn 2s ease-in-out;
+    text-align: left
+}
+
+
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+
+@keyframes fade-out{
+    0%{opacity: 1}
+    100%{opacity: 0}
+}
+
+.intro{
+    display:flex;
+    flex-direction: column;
+}
+
+.words2.name{
+    background: -webkit-linear-gradient(90deg, #00d9ff 0%, #FFF 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 60px;
+    text-align: right;
+    animation: fadeIn2 2.5s ease-in-out;
+}
+
+@keyframes fadeIn2{
+    0%{opacity: 0}
+    50%{
+        opacity: 0
+    }
+    100%{
+        opacity: 1;
+    }
+}
